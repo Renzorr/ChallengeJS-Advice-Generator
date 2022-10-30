@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+  .card {
+    padding-inline: 20px;
+  }
+  .card-id {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $neon-green;
+  }
+
+  .card-content {
+    padding-block: 25px;
+    font-size: 21px;
+    color: $l-cyan;
+  }
+
+  .mb-divider {
+    display: none;
+  }
+
+  .dtp-divider {
+    display: inherit;
+  }
+}
